@@ -1,0 +1,16 @@
+package rules
+
+import pl.edu.atar.clinic.Patient;
+
+// Diagnoza gorączki.
+rule "Fever diagnosed"
+    dialect "java"
+    salience 100
+
+    when
+        $p : Patient(temperature > 37.3)
+    then
+	    $p.setHealthy(false);
+        $p.setDiagnosis("Fever!");
+  	    $p.appendLogger("Rule 'Fever diagnosed' fired!");
+end

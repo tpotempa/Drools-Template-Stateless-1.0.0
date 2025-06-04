@@ -1,0 +1,54 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>pl.edu.atar.clinic.Patient@6a0659ac</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Fever diagnosed [1]</activationId>
+      <rule>Fever diagnosed</rule>
+      <declarations>$p=pl.edu.atar.clinic.Patient@6a0659ac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Presumption of being healthy [1]</activationId>
+      <rule>Presumption of being healthy</rule>
+      <declarations>$p=pl.edu.atar.clinic.Patient@6a0659ac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Presumption of being healthy [1]</activationId>
+      <rule>Presumption of being healthy</rule>
+      <declarations>$p=pl.edu.atar.clinic.Patient@6a0659ac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Presumption of being healthy [1]</activationId>
+      <rule>Presumption of being healthy</rule>
+      <declarations>$p=pl.edu.atar.clinic.Patient@6a0659ac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Fever diagnosed [1]</activationId>
+      <rule>Fever diagnosed</rule>
+      <declarations>$p=pl.edu.atar.clinic.Patient@6a0659ac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Fever diagnosed [1]</activationId>
+      <rule>Fever diagnosed</rule>
+      <declarations>$p=pl.edu.atar.clinic.Patient@6a0659ac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>

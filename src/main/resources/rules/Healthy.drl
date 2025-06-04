@@ -1,0 +1,15 @@
+package rules
+
+import pl.edu.atar.clinic.Patient;
+
+// Wstępne domniemanie/zalożenie bycia zdrowym.
+rule "Presumption of being healthy"
+    dialect "java"
+    salience 1000
+
+    when
+        $p : Patient()
+    then
+	    $p.setHealthy(true);
+  	    $p.appendLogger("Rule 'Presumption of being healthy' fired!");
+end
